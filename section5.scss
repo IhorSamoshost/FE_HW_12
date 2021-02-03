@@ -1,0 +1,77 @@
+.section5 {
+
+  background: url(img/Rectangle.png) no-repeat;
+  background-size: cover;
+
+  .section5__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15em 0 2.25em 0;
+
+    &-title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: $black;
+    }
+
+    &-text {
+      padding-top: 1em;
+      text-align: center;
+      max-width: 37.5em;
+      line-height: 26px;
+      color: $violet-font;
+    }
+  }
+
+  .section5__price {
+    padding-bottom: 3.8em;
+
+    &-title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      letter-spacing: 1px;
+      color: $navy-font;
+    }
+
+    &-text {
+      text-align: center;
+      line-height: 26px;
+      color: $purple-font;
+    }
+  }
+
+  .section5__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 11.88rem;
+
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: $grey-font;
+      padding-bottom: 0.5rem;
+    }
+
+    &-btn {
+      width: 189px;
+      height: 32px;
+      border-radius: 2px;
+      background-color: $blue-btn;
+    }
+
+    &-link {
+      color: $white;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-decoration: none;
+    }
+  }
+}

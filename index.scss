@@ -1,0 +1,59 @@
+$blue-font: #505F98;
+$blue-btn: #111B47;
+$white: #FFFFFF;
+$black: #091133;
+$grey-font: #5D6970;
+$violet-font: #6F7CB2;
+$navy-font: #222F65;
+$purple-font: #37447E;
+$light-blue: #E7ECFF;
+$grey2-font: #939EA4;
+$footer-splitter: #CDD1D4;
+$lilac-font: #929ECC;
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.15);
+}
+
+.btn:active {
+  transform: scale(.9);
+}
+
+@import "header.scss";
+@import "section1.scss";
+@import "section2.scss";
+@import "section3.scss";
+@import "section4.scss";
+@import "section5.scss";
+@import "footer.scss";

@@ -1,0 +1,50 @@
+.section2 {
+
+  .container {
+    background: url(img/undraw_happy_news_hxmt.png) no-repeat 20% 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 27.81em;
+    padding: 10em 7em 10em 0;
+
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: $black;
+    }
+
+    &-text {
+      padding-top: 1em;
+      line-height: 26px;
+      color: $violet-font;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .section2 {
+    .container {
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.09007352941176472) 0%, rgba(255, 255, 255, 0.80620798319327735) 15%), url(img/undraw_happy_news_hxmt.png) no-repeat 20% 50%;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .section2 {
+
+    &__content {
+      padding: 7em 0;
+      margin: 0 auto;
+
+      &-title {
+        text-align: center;
+      }
+    }
+  }
+}
